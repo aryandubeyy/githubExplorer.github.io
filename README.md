@@ -11,8 +11,7 @@ GitHub Explorer is a web application that allows users to explore GitHub user pr
   - [Installation](#installation)
 - [Usage](#usage)
 - [Additional Features](#additional-features)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
