@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Explorer</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/dark-mode-toggle@3.0.0/dist/dark-mode-toggle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <h1>GitHub Explorer</h1>
+    <form id="githubForm">
+        <label for="username">Enter GitHub Username:</label>
+        <input type="text" id="username" name="username" required>
+        <button type="button" onclick="getUserDetails()">Explore</button>
+    </form>
+
+    <div id="loading" style="display: none;">
+        <img src="loading.gif" alt="Loading..." width="50">
+    </div>
+
+    <div id="result">
+        <!-- User details will be displayed here -->
+    </div>
+
+    <div class="dark-mode-toggle">
+        <button id="darkModeToggle" class="dark-mode-toggle__button"></button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
